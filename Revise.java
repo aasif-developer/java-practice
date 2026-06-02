@@ -29,5 +29,17 @@ public class Revise
         s1.roll = 101;
         s1.name="AASIF";
         s1.display();
+
+        //TRY CATCH
+        int a=10;
+        int b=0;
+        try
+        {
+          int c= a/b;
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println("DIVISION BY ZERO");
+        }
     }
 }
