@@ -33,13 +33,15 @@ public class Revise
         //TRY CATCH
         int a=10;
         int b=0;
+        int c=0;
         try
         {
-          int c= a/b;
+          c= a/b;
         }
         catch(ArithmeticException e)
         {
             System.out.println("DIVISION BY ZERO");
         }
+        System.out.println(c);
     }
 }
